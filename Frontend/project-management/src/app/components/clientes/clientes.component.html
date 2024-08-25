@@ -1,0 +1,20 @@
+<h2>Clientes</h2>
+<form (ngSubmit)="salvar()">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" [(ngModel)]="novoCliente.nome" name="nome" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" [(ngModel)]="novoCliente.email" name="email" required>
+
+  <label for="telefone">Telefone:</label>
+  <input type="text" id="telefone" [(ngModel)]="novoCliente.telefone" name="telefone" required>
+
+  <button type="submit">Salvar</button>
+</form>
+
+<ul>
+  <li *ngFor="let cliente of clientes">
+    {{ cliente.nome }} ({{ cliente.email }})
+    <button (click)="excluir(cliente.id)">Excluir</button>
+  </li>
+</ul>
