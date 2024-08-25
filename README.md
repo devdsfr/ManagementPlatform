@@ -1,4 +1,4 @@
-# ManagementPlatform
+# Gestor de Pedidos
 Este projeto é uma plataforma web para gestão de projetos, clientes e atividades dentro de um ambiente de desenvolvimento de software
 # Funcionalidades
 Gestão de Clientes: Adicione, edite e exclua clientes.
@@ -8,6 +8,19 @@ Interface Responsiva: O front-end é desenvolvido em Angular, oferecendo uma int
 API RESTful: O back-end é desenvolvido em Java e Spring Boot, expondo uma API RESTful para interação com o front-end.
 Integração com Banco de Dados: Armazenamento persistente usando PostgreSQL com Hibernate ORM.
 Deploy: Hospedado no Heroku com deploy contínuo a partir do GitHub.
+
+# Tecnologias Utilizadas
+* Frontend: Angular, TypeScript, Bootstrap
+* Backend: Java, Spring Boot, Hibernate, PostgreSQL
+* Testes: JUnit, Mockito
+
+#  Pré-requisitos
+* Java 11 ou superior
+* Node.js 14 ou superior
+* PostgreSQL 13 ou superior
+* Maven 3.6+
+* Angular CLI 12+
+* Git
 
 # Endpoints da API
 ### Clientes

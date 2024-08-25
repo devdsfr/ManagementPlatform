@@ -29,8 +29,6 @@ public class AtividadeService {
         atividadeExistente.setDescricao(atividadeAtualizada.getDescricao());
         atividadeExistente.setDataInicio(atividadeAtualizada.getDataInicio());
         atividadeExistente.setDataFim(atividadeAtualizada.getDataFim());
-        //atividadeExistente.setProjetoId(atividadeAtualizada.getProjetoId());
-        // Atualize outros campos conforme necessário
         return atividadeRepository.save(atividadeExistente);
     }
     public void excluir(Long id) {

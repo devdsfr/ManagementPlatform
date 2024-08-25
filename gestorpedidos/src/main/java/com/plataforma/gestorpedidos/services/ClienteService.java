@@ -29,7 +29,6 @@ public class ClienteService {
         Cliente clienteExistente = buscarPorId(id);
         clienteExistente.setNome(clienteAtualizado.getNome());
         clienteExistente.setEmail(clienteAtualizado.getEmail());
-        // Atualize outros campos conforme necessário
         return clienteRepository.save(clienteExistente);
     }
     public void excluir(Long id) {
