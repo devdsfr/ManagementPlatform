@@ -19,11 +19,19 @@ public class ProjetoController {
         return projetoService.listarPorStatus(status);
     }
 
+    @GetMapping("/{id}")
+    public Projeto buscarPorId(@PathVariable Long id) {
+        return projetoService.buscarPorId(id);
+    }
+
     @PostMapping
     public Projeto salvar(@RequestBody Projeto projeto) {
         return projetoService.salvar(projeto);
     }
-
+    @PutMapping("/{id}")  // Endpoint de atualização
+    public Projeto atualizar(@PathVariable Long id, @RequestBody Projeto projetoAtualizado) {
+        return projetoService.atualizar(id, projetoAtualizado);
+    }
     @DeleteMapping("/{id}")
     public void excluir(@PathVariable Long id) {
         projetoService.excluir(id);

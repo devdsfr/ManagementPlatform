@@ -18,12 +18,19 @@ public class AtividadeController {
     public List<Atividade> listarTodos() {
         return atividadeService.listarTodos();
     }
+    @GetMapping("/{id}")
+    public Atividade buscarPorId(@PathVariable Long id) {
+        return atividadeService.buscarPorId(id);
+    }
 
     @PostMapping
     public Atividade salvar(@RequestBody Atividade atividade) {
         return atividadeService.salvar(atividade);
     }
-
+    @PutMapping("/{id}")  // Endpoint de atualização
+    public Atividade atualizar(@PathVariable Long id, @RequestBody Atividade atividadeAtualizada) {
+        return atividadeService.atualizar(id, atividadeAtualizada);
+    }
     @DeleteMapping("/{id}")
     public void excluir(@PathVariable Long id) {
         atividadeService.excluir(id);

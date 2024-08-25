@@ -24,6 +24,7 @@ export class ClientesComponent implements OnInit {
   }
 
   salvar(): void {
+    debugger;
     this.clienteService.salvar(this.novoCliente).subscribe(() => {
       this.carregarClientes();
       this.novoCliente = { id: 0, nome: '', email: '', telefone: '' };
