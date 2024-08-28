@@ -57,3 +57,14 @@ PUT /api/activities/{id} - Atualizar uma atividade por ID.
 DELETE /api/activities/{id} - Excluir uma atividade por ID.
 ![img_8.png](img/img_8.png)
  Link do Postman dos endpoints https://documenter.getpostman.com/view/11387908/2sAXjF9v78
+
+## Diagrama de Sequência
+
+### Cliente
+![img.png](img.png)
+
+## Projeto
+![img_1.png](img_1.png)
+
+## Atividades
+![img_2.png](img_2.png)

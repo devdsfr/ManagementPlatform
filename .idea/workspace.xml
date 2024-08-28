@@ -5,6 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84078903-14dc-4013-8a30-cc1b2f5d13e3" name="Changes" comment="Adjust completed">
+      <change afterPath="$PROJECT_DIR$/gestorpedidos/src/test/java/com/plataforma/gestorpedidos/controllers/AtividadeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestorpedidos/src/test/java/com/plataforma/gestorpedidos/controllers/ClienteControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestorpedidos/src/test/java/com/plataforma/gestorpedidos/controllers/ProjetoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/src/app/components/clientes/clientes.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/src/app/components/clientes/clientes.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/src/app/components/clientes/clientes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/src/app/components/clientes/clientes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/project-management/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/project-management/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +62,15 @@
     "last_opened_file_path": "C:/Users/Elite Player/Documents/Projetos/DesafioPedidos/ManagementPlatform",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elite Player\Documents\Projetos\DesafioPedidos\ManagementPlatform\img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
